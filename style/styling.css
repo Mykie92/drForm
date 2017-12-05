@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*, html{
+    font-family: "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+
+}
+
+
+/*---------------- HEADER -----------------*/
+header{
+    height: 200px;
+}
+
+header h1{
+    color: black;
+    font-size: 46px;
+    margin: 0px;
+    margin-top: 70px;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+div.nav{
+    width: 1040px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+div.nav ul{
+
+}
+
+div.nav div.nav-line{
+    height: 1px;
+    background-color: black;
+    width: 100px;
+    float: left;
+    margin-top: 26px;
+}
+
+div.nav a{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    color: black;
+    margin: 0 5px;
+    width: 25%;
+    padding: 15px 0px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 30px;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
+}
+
+div.nav a:hover{
+    color: #01579B;
+}
+
+
+/*---------------- BODY CONTENT -----------------*/
+
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+main > div{
+    margin: 100px 0px 0px 0px;
+    padding: 0px 40px;
+}
+
+
+#about{
+
+}
+
+#about p{
+    padding: 0px 40px;
+}
+
+#about p.subheader{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#about p.text{
+    font-size: 22px;
+    font-weight:400;
+}
+
+.banner_image{
+    width: 100%;
+}
+
+.banner_image img{
+    width: 100%;
+}
+
+
+
+#form{
+
+}
+
+h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+fieldset{
+    margin: 20px;
+    padding: 0 20px 30px 20px;
+    background-color: #e9ecf5;
+}
+
+
+label div{
+    font-size: 18px;
+    margin: 20px 0px 5px 0px
+}
+
+input{
+    font-size: 18px;
+    min-width: 50%;
+    height: 30px;
+    padding: 0px 5px;
+}
+
+select, option{
+    cursor: pointer;
+}
+
+select{
+    height:30px;
+}
+
+.submit{
+    min-width: 300px;
+    height: 50px;
+    font-size: 24px;
+    margin: 0 20px 20px 20px;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #172349;
+    border:solid 1px #172349;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.submit:hover{
+    border:solid 1px #172349;
+    background-color: #172349;
+    color: white;
+}
+
+#contact{
+    padding: 20px 100px;
+    background-color: #eee;
+}
+
+.person{
+    background: white;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.person h4{
+    margin-bottom: -10px;
+}
+
+.button{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: #172349;
+    border: 1px solid #172349;
+}
+.button:hover{
+    background-color: #eee;
+}
+
+
+
+/*-- MOBILE --------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1040px) {
+
+    div.nav{
+        width: 300px;
+    }
+    div.nav .nav-line{
+        display: none;
+    }
+
+
+
+    }
